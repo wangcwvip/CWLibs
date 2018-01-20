@@ -14,13 +14,6 @@
 		2D22DA121FF4945900A0F54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D22DA101FF4945900A0F54C /* LaunchScreen.storyboard */; };
 		2D22DA151FF4945900A0F54C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22DA141FF4945900A0F54C /* main.m */; };
 		2D22DA1F1FF4945A00A0F54C /* CWLibsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22DA1E1FF4945A00A0F54C /* CWLibsTests.m */; };
-		2D22DA381FF4A0C800A0F54C /* libCWUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D22DA361FF4A06900A0F54C /* libCWUtils.a */; };
-		2D22DC241FF4C0AE00A0F54C /* CWCommonBiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D22DBBE1FF4BE8F00A0F54C /* CWCommonBiz.framework */; };
-		2D22DC251FF4C0AE00A0F54C /* CWCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D22DBC71FF4BEA600A0F54C /* CWCommonUI.framework */; };
-		2D22DC261FF4C0AE00A0F54C /* CWCoreBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D22DAD01FF4BA8E00A0F54C /* CWCoreBase.framework */; };
-		2D22DC271FF4C0AE00A0F54C /* CWCoreNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D22DB211FF4BB3C00A0F54C /* CWCoreNetwork.framework */; };
-		2D22DC281FF4C0AE00A0F54C /* CWVendorsBiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D22DC181FF4BF5D00A0F54C /* CWVendorsBiz.framework */; };
-		2D22DC291FF4C0AE00A0F54C /* CWVendorsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D22DC211FF4BF7200A0F54C /* CWVendorsUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,93 +24,93 @@
 			remoteGlobalIDString = 2D22DA011FF4945900A0F54C;
 			remoteInfo = CWLibs;
 		};
-		2D22DA351FF4A06900A0F54C /* PBXContainerItemProxy */ = {
+		2D49AA1A1FF7CBE800EB08A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DA311FF4A06900A0F54C /* CWUtils.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D22D9ED1FF492E900A0F54C;
-			remoteInfo = CWUtils;
-		};
-		2D22DACF1FF4BA8E00A0F54C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DACA1FF4BA8E00A0F54C /* CWCoreBase.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D22DAB01FF4BA7C00A0F54C;
-			remoteInfo = CWCoreBase;
-		};
-		2D22DAD11FF4BA8E00A0F54C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DACA1FF4BA8E00A0F54C /* CWCoreBase.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D22DAB91FF4BA7C00A0F54C;
-			remoteInfo = CWCoreBaseTests;
-		};
-		2D22DB201FF4BB3C00A0F54C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DB1B1FF4BB3C00A0F54C /* CWCoreNetwork.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D22DB011FF4BB2E00A0F54C;
-			remoteInfo = CWCoreNetwork;
-		};
-		2D22DB221FF4BB3C00A0F54C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DB1B1FF4BB3C00A0F54C /* CWCoreNetwork.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D22DB0A1FF4BB2E00A0F54C;
-			remoteInfo = CWCoreNetworkTests;
-		};
-		2D22DBBD1FF4BE8F00A0F54C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DBB81FF4BE8F00A0F54C /* CWCommonBiz.xcodeproj */;
+			containerPortal = 2D49AA151FF7CBE800EB08A8 /* CWCommonBiz.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D22DB7A1FF4BE2000A0F54C;
 			remoteInfo = CWCommonBiz;
 		};
-		2D22DBBF1FF4BE8F00A0F54C /* PBXContainerItemProxy */ = {
+		2D49AA1C1FF7CBE800EB08A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DBB81FF4BE8F00A0F54C /* CWCommonBiz.xcodeproj */;
+			containerPortal = 2D49AA151FF7CBE800EB08A8 /* CWCommonBiz.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D22DB831FF4BE2000A0F54C;
 			remoteInfo = CWCommonBizTests;
 		};
-		2D22DBC61FF4BEA600A0F54C /* PBXContainerItemProxy */ = {
+		2D49AA231FF7CBF500EB08A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DBC11FF4BEA600A0F54C /* CWCommonUI.xcodeproj */;
+			containerPortal = 2D49AA1E1FF7CBF500EB08A8 /* CWCommonUI.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D22DB9E1FF4BE6B00A0F54C;
 			remoteInfo = CWCommonUI;
 		};
-		2D22DBC81FF4BEA600A0F54C /* PBXContainerItemProxy */ = {
+		2D49AA251FF7CBF500EB08A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DBC11FF4BEA600A0F54C /* CWCommonUI.xcodeproj */;
+			containerPortal = 2D49AA1E1FF7CBF500EB08A8 /* CWCommonUI.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D22DBA71FF4BE6B00A0F54C;
 			remoteInfo = CWCommonUITests;
 		};
-		2D22DC171FF4BF5D00A0F54C /* PBXContainerItemProxy */ = {
+		2D49AA2C1FF7CC0000EB08A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DC121FF4BF5D00A0F54C /* CWVendorsBiz.xcodeproj */;
+			containerPortal = 2D49AA271FF7CC0000EB08A8 /* CWCoreBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D22DAB01FF4BA7C00A0F54C;
+			remoteInfo = CWCoreBase;
+		};
+		2D49AA2E1FF7CC0000EB08A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D49AA271FF7CC0000EB08A8 /* CWCoreBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D22DAB91FF4BA7C00A0F54C;
+			remoteInfo = CWCoreBaseTests;
+		};
+		2D49AA351FF7CC0F00EB08A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D49AA301FF7CC0F00EB08A8 /* CWCoreNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D22DB011FF4BB2E00A0F54C;
+			remoteInfo = CWCoreNetwork;
+		};
+		2D49AA371FF7CC0F00EB08A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D49AA301FF7CC0F00EB08A8 /* CWCoreNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D22DB0A1FF4BB2E00A0F54C;
+			remoteInfo = CWCoreNetworkTests;
+		};
+		2D49AA3D1FF7D16A00EB08A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D49AA391FF7D16A00EB08A8 /* CWUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D22D9ED1FF492E900A0F54C;
+			remoteInfo = CWUtils;
+		};
+		2D49AA441FF7D17400EB08A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D49AA3F1FF7D17400EB08A8 /* CWVendorsBiz.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D22DBF81FF4BF4C00A0F54C;
 			remoteInfo = CWVendorsBiz;
 		};
-		2D22DC191FF4BF5D00A0F54C /* PBXContainerItemProxy */ = {
+		2D49AA461FF7D17400EB08A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DC121FF4BF5D00A0F54C /* CWVendorsBiz.xcodeproj */;
+			containerPortal = 2D49AA3F1FF7D17400EB08A8 /* CWVendorsBiz.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D22DC011FF4BF4D00A0F54C;
 			remoteInfo = CWVendorsBizTests;
 		};
-		2D22DC201FF4BF7200A0F54C /* PBXContainerItemProxy */ = {
+		2D49AA4D1FF7D18000EB08A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DC1B1FF4BF7200A0F54C /* CWVendorsUI.xcodeproj */;
+			containerPortal = 2D49AA481FF7D18000EB08A8 /* CWVendorsUI.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D22DBD41FF4BF2300A0F54C;
 			remoteInfo = CWVendorsUI;
 		};
-		2D22DC221FF4BF7200A0F54C /* PBXContainerItemProxy */ = {
+		2D49AA4F1FF7D18000EB08A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D22DC1B1FF4BF7200A0F54C /* CWVendorsUI.xcodeproj */;
+			containerPortal = 2D49AA481FF7D18000EB08A8 /* CWVendorsUI.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D22DBDD1FF4BF2300A0F54C;
 			remoteInfo = CWVendorsUITests;
@@ -138,13 +131,13 @@
 		2D22DA1A1FF4945A00A0F54C /* CWLibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWLibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D22DA1E1FF4945A00A0F54C /* CWLibsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWLibsTests.m; sourceTree = "<group>"; };
 		2D22DA201FF4945A00A0F54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D22DA311FF4A06900A0F54C /* CWUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWUtils.xcodeproj; path = Libs/CWUtils/CWUtils.xcodeproj; sourceTree = SOURCE_ROOT; };
-		2D22DACA1FF4BA8E00A0F54C /* CWCoreBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWCoreBase.xcodeproj; path = Libs/CWCoreBase/CWCoreBase.xcodeproj; sourceTree = SOURCE_ROOT; };
-		2D22DB1B1FF4BB3C00A0F54C /* CWCoreNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWCoreNetwork.xcodeproj; path = Libs/CWCoreNetwork/CWCoreNetwork.xcodeproj; sourceTree = SOURCE_ROOT; };
-		2D22DBB81FF4BE8F00A0F54C /* CWCommonBiz.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWCommonBiz.xcodeproj; path = Libs/CWCommonBiz/CWCommonBiz.xcodeproj; sourceTree = SOURCE_ROOT; };
-		2D22DBC11FF4BEA600A0F54C /* CWCommonUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWCommonUI.xcodeproj; path = Libs/CWCommonUI/CWCommonUI.xcodeproj; sourceTree = SOURCE_ROOT; };
-		2D22DC121FF4BF5D00A0F54C /* CWVendorsBiz.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWVendorsBiz.xcodeproj; path = Libs/CWVendorsBiz/CWVendorsBiz.xcodeproj; sourceTree = SOURCE_ROOT; };
-		2D22DC1B1FF4BF7200A0F54C /* CWVendorsUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWVendorsUI.xcodeproj; path = Libs/CWVendorsUI/CWVendorsUI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		2D49AA151FF7CBE800EB08A8 /* CWCommonBiz.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWCommonBiz.xcodeproj; path = CWCommonBiz/CWCommonBiz.xcodeproj; sourceTree = "<group>"; };
+		2D49AA1E1FF7CBF500EB08A8 /* CWCommonUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWCommonUI.xcodeproj; path = CWCommonUI/CWCommonUI.xcodeproj; sourceTree = "<group>"; };
+		2D49AA271FF7CC0000EB08A8 /* CWCoreBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWCoreBase.xcodeproj; path = CWCoreBase/CWCoreBase.xcodeproj; sourceTree = "<group>"; };
+		2D49AA301FF7CC0F00EB08A8 /* CWCoreNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWCoreNetwork.xcodeproj; path = CWCoreNetwork/CWCoreNetwork.xcodeproj; sourceTree = "<group>"; };
+		2D49AA391FF7D16A00EB08A8 /* CWUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWUtils.xcodeproj; path = CWUtils/CWUtils.xcodeproj; sourceTree = "<group>"; };
+		2D49AA3F1FF7D17400EB08A8 /* CWVendorsBiz.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWVendorsBiz.xcodeproj; path = CWVendorsBiz/CWVendorsBiz.xcodeproj; sourceTree = "<group>"; };
+		2D49AA481FF7D18000EB08A8 /* CWVendorsUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CWVendorsUI.xcodeproj; path = CWVendorsUI/CWVendorsUI.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,13 +145,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D22DC241FF4C0AE00A0F54C /* CWCommonBiz.framework in Frameworks */,
-				2D22DC251FF4C0AE00A0F54C /* CWCommonUI.framework in Frameworks */,
-				2D22DC261FF4C0AE00A0F54C /* CWCoreBase.framework in Frameworks */,
-				2D22DC271FF4C0AE00A0F54C /* CWCoreNetwork.framework in Frameworks */,
-				2D22DC281FF4C0AE00A0F54C /* CWVendorsBiz.framework in Frameworks */,
-				2D22DC291FF4C0AE00A0F54C /* CWVendorsUI.framework in Frameworks */,
-				2D22DA381FF4A0C800A0F54C /* libCWUtils.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +161,8 @@
 		2D22D9F91FF4945900A0F54C = {
 			isa = PBXGroup;
 			children = (
+				2D49AA141FF7CBCD00EB08A8 /* Libs */,
 				2D22DA041FF4945900A0F54C /* CWLibs */,
-				2D22DA301FF4A02800A0F54C /* Libs */,
 				2D22DA1D1FF4945A00A0F54C /* CWLibsTests */,
 				2D22DA031FF4945900A0F54C /* Products */,
 				2D22DA371FF4A0C800A0F54C /* Frameworks */,
@@ -217,29 +203,6 @@
 			path = CWLibsTests;
 			sourceTree = "<group>";
 		};
-		2D22DA301FF4A02800A0F54C /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				2D22DBC11FF4BEA600A0F54C /* CWCommonUI.xcodeproj */,
-				2D22DBB81FF4BE8F00A0F54C /* CWCommonBiz.xcodeproj */,
-				2D22DB1B1FF4BB3C00A0F54C /* CWCoreNetwork.xcodeproj */,
-				2D22DACA1FF4BA8E00A0F54C /* CWCoreBase.xcodeproj */,
-				2D22DC1B1FF4BF7200A0F54C /* CWVendorsUI.xcodeproj */,
-				2D22DC121FF4BF5D00A0F54C /* CWVendorsBiz.xcodeproj */,
-				2D22DA311FF4A06900A0F54C /* CWUtils.xcodeproj */,
-			);
-			name = Libs;
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		2D22DA321FF4A06900A0F54C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2D22DA361FF4A06900A0F54C /* libCWUtils.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		2D22DA371FF4A0C800A0F54C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,56 +210,78 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2D22DACB1FF4BA8E00A0F54C /* Products */ = {
+		2D49AA141FF7CBCD00EB08A8 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				2D22DAD01FF4BA8E00A0F54C /* CWCoreBase.framework */,
-				2D22DAD21FF4BA8E00A0F54C /* CWCoreBaseTests.xctest */,
+				2D49AA481FF7D18000EB08A8 /* CWVendorsUI.xcodeproj */,
+				2D49AA3F1FF7D17400EB08A8 /* CWVendorsBiz.xcodeproj */,
+				2D49AA391FF7D16A00EB08A8 /* CWUtils.xcodeproj */,
+				2D49AA301FF7CC0F00EB08A8 /* CWCoreNetwork.xcodeproj */,
+				2D49AA271FF7CC0000EB08A8 /* CWCoreBase.xcodeproj */,
+				2D49AA1E1FF7CBF500EB08A8 /* CWCommonUI.xcodeproj */,
+				2D49AA151FF7CBE800EB08A8 /* CWCommonBiz.xcodeproj */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		2D49AA161FF7CBE800EB08A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D49AA1B1FF7CBE800EB08A8 /* CWCommonBiz.framework */,
+				2D49AA1D1FF7CBE800EB08A8 /* CWCommonBizTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D22DB1C1FF4BB3C00A0F54C /* Products */ = {
+		2D49AA1F1FF7CBF500EB08A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D22DB211FF4BB3C00A0F54C /* CWCoreNetwork.framework */,
-				2D22DB231FF4BB3C00A0F54C /* CWCoreNetworkTests.xctest */,
+				2D49AA241FF7CBF500EB08A8 /* CWCommonUI.framework */,
+				2D49AA261FF7CBF500EB08A8 /* CWCommonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D22DBB91FF4BE8F00A0F54C /* Products */ = {
+		2D49AA281FF7CC0000EB08A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D22DBBE1FF4BE8F00A0F54C /* CWCommonBiz.framework */,
-				2D22DBC01FF4BE8F00A0F54C /* CWCommonBizTests.xctest */,
+				2D49AA2D1FF7CC0000EB08A8 /* CWCoreBase.framework */,
+				2D49AA2F1FF7CC0000EB08A8 /* CWCoreBaseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D22DBC21FF4BEA600A0F54C /* Products */ = {
+		2D49AA311FF7CC0F00EB08A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D22DBC71FF4BEA600A0F54C /* CWCommonUI.framework */,
-				2D22DBC91FF4BEA600A0F54C /* CWCommonUITests.xctest */,
+				2D49AA361FF7CC0F00EB08A8 /* CWCoreNetwork.framework */,
+				2D49AA381FF7CC0F00EB08A8 /* CWCoreNetworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D22DC131FF4BF5D00A0F54C /* Products */ = {
+		2D49AA3A1FF7D16A00EB08A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D22DC181FF4BF5D00A0F54C /* CWVendorsBiz.framework */,
-				2D22DC1A1FF4BF5D00A0F54C /* CWVendorsBizTests.xctest */,
+				2D49AA3E1FF7D16A00EB08A8 /* libCWUtils.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D22DC1C1FF4BF7200A0F54C /* Products */ = {
+		2D49AA401FF7D17400EB08A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D22DC211FF4BF7200A0F54C /* CWVendorsUI.framework */,
-				2D22DC231FF4BF7200A0F54C /* CWVendorsUITests.xctest */,
+				2D49AA451FF7D17400EB08A8 /* CWVendorsBiz.framework */,
+				2D49AA471FF7D17400EB08A8 /* CWVendorsBizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D49AA491FF7D18000EB08A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D49AA4E1FF7D18000EB08A8 /* CWVendorsUI.framework */,
+				2D49AA501FF7D18000EB08A8 /* CWVendorsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -372,32 +357,32 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 2D22DBB91FF4BE8F00A0F54C /* Products */;
-					ProjectRef = 2D22DBB81FF4BE8F00A0F54C /* CWCommonBiz.xcodeproj */;
+					ProductGroup = 2D49AA161FF7CBE800EB08A8 /* Products */;
+					ProjectRef = 2D49AA151FF7CBE800EB08A8 /* CWCommonBiz.xcodeproj */;
 				},
 				{
-					ProductGroup = 2D22DBC21FF4BEA600A0F54C /* Products */;
-					ProjectRef = 2D22DBC11FF4BEA600A0F54C /* CWCommonUI.xcodeproj */;
+					ProductGroup = 2D49AA1F1FF7CBF500EB08A8 /* Products */;
+					ProjectRef = 2D49AA1E1FF7CBF500EB08A8 /* CWCommonUI.xcodeproj */;
 				},
 				{
-					ProductGroup = 2D22DACB1FF4BA8E00A0F54C /* Products */;
-					ProjectRef = 2D22DACA1FF4BA8E00A0F54C /* CWCoreBase.xcodeproj */;
+					ProductGroup = 2D49AA281FF7CC0000EB08A8 /* Products */;
+					ProjectRef = 2D49AA271FF7CC0000EB08A8 /* CWCoreBase.xcodeproj */;
 				},
 				{
-					ProductGroup = 2D22DB1C1FF4BB3C00A0F54C /* Products */;
-					ProjectRef = 2D22DB1B1FF4BB3C00A0F54C /* CWCoreNetwork.xcodeproj */;
+					ProductGroup = 2D49AA311FF7CC0F00EB08A8 /* Products */;
+					ProjectRef = 2D49AA301FF7CC0F00EB08A8 /* CWCoreNetwork.xcodeproj */;
 				},
 				{
-					ProductGroup = 2D22DA321FF4A06900A0F54C /* Products */;
-					ProjectRef = 2D22DA311FF4A06900A0F54C /* CWUtils.xcodeproj */;
+					ProductGroup = 2D49AA3A1FF7D16A00EB08A8 /* Products */;
+					ProjectRef = 2D49AA391FF7D16A00EB08A8 /* CWUtils.xcodeproj */;
 				},
 				{
-					ProductGroup = 2D22DC131FF4BF5D00A0F54C /* Products */;
-					ProjectRef = 2D22DC121FF4BF5D00A0F54C /* CWVendorsBiz.xcodeproj */;
+					ProductGroup = 2D49AA401FF7D17400EB08A8 /* Products */;
+					ProjectRef = 2D49AA3F1FF7D17400EB08A8 /* CWVendorsBiz.xcodeproj */;
 				},
 				{
-					ProductGroup = 2D22DC1C1FF4BF7200A0F54C /* Products */;
-					ProjectRef = 2D22DC1B1FF4BF7200A0F54C /* CWVendorsUI.xcodeproj */;
+					ProductGroup = 2D49AA491FF7D18000EB08A8 /* Products */;
+					ProjectRef = 2D49AA481FF7D18000EB08A8 /* CWVendorsUI.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -409,95 +394,95 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		2D22DA361FF4A06900A0F54C /* libCWUtils.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCWUtils.a;
-			remoteRef = 2D22DA351FF4A06900A0F54C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2D22DAD01FF4BA8E00A0F54C /* CWCoreBase.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CWCoreBase.framework;
-			remoteRef = 2D22DACF1FF4BA8E00A0F54C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2D22DAD21FF4BA8E00A0F54C /* CWCoreBaseTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CWCoreBaseTests.xctest;
-			remoteRef = 2D22DAD11FF4BA8E00A0F54C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2D22DB211FF4BB3C00A0F54C /* CWCoreNetwork.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CWCoreNetwork.framework;
-			remoteRef = 2D22DB201FF4BB3C00A0F54C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2D22DB231FF4BB3C00A0F54C /* CWCoreNetworkTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CWCoreNetworkTests.xctest;
-			remoteRef = 2D22DB221FF4BB3C00A0F54C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2D22DBBE1FF4BE8F00A0F54C /* CWCommonBiz.framework */ = {
+		2D49AA1B1FF7CBE800EB08A8 /* CWCommonBiz.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CWCommonBiz.framework;
-			remoteRef = 2D22DBBD1FF4BE8F00A0F54C /* PBXContainerItemProxy */;
+			remoteRef = 2D49AA1A1FF7CBE800EB08A8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2D22DBC01FF4BE8F00A0F54C /* CWCommonBizTests.xctest */ = {
+		2D49AA1D1FF7CBE800EB08A8 /* CWCommonBizTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = CWCommonBizTests.xctest;
-			remoteRef = 2D22DBBF1FF4BE8F00A0F54C /* PBXContainerItemProxy */;
+			remoteRef = 2D49AA1C1FF7CBE800EB08A8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2D22DBC71FF4BEA600A0F54C /* CWCommonUI.framework */ = {
+		2D49AA241FF7CBF500EB08A8 /* CWCommonUI.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CWCommonUI.framework;
-			remoteRef = 2D22DBC61FF4BEA600A0F54C /* PBXContainerItemProxy */;
+			remoteRef = 2D49AA231FF7CBF500EB08A8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2D22DBC91FF4BEA600A0F54C /* CWCommonUITests.xctest */ = {
+		2D49AA261FF7CBF500EB08A8 /* CWCommonUITests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = CWCommonUITests.xctest;
-			remoteRef = 2D22DBC81FF4BEA600A0F54C /* PBXContainerItemProxy */;
+			remoteRef = 2D49AA251FF7CBF500EB08A8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2D22DC181FF4BF5D00A0F54C /* CWVendorsBiz.framework */ = {
+		2D49AA2D1FF7CC0000EB08A8 /* CWCoreBase.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CWCoreBase.framework;
+			remoteRef = 2D49AA2C1FF7CC0000EB08A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D49AA2F1FF7CC0000EB08A8 /* CWCoreBaseTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CWCoreBaseTests.xctest;
+			remoteRef = 2D49AA2E1FF7CC0000EB08A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D49AA361FF7CC0F00EB08A8 /* CWCoreNetwork.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CWCoreNetwork.framework;
+			remoteRef = 2D49AA351FF7CC0F00EB08A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D49AA381FF7CC0F00EB08A8 /* CWCoreNetworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CWCoreNetworkTests.xctest;
+			remoteRef = 2D49AA371FF7CC0F00EB08A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D49AA3E1FF7D16A00EB08A8 /* libCWUtils.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCWUtils.a;
+			remoteRef = 2D49AA3D1FF7D16A00EB08A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D49AA451FF7D17400EB08A8 /* CWVendorsBiz.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CWVendorsBiz.framework;
-			remoteRef = 2D22DC171FF4BF5D00A0F54C /* PBXContainerItemProxy */;
+			remoteRef = 2D49AA441FF7D17400EB08A8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2D22DC1A1FF4BF5D00A0F54C /* CWVendorsBizTests.xctest */ = {
+		2D49AA471FF7D17400EB08A8 /* CWVendorsBizTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = CWVendorsBizTests.xctest;
-			remoteRef = 2D22DC191FF4BF5D00A0F54C /* PBXContainerItemProxy */;
+			remoteRef = 2D49AA461FF7D17400EB08A8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2D22DC211FF4BF7200A0F54C /* CWVendorsUI.framework */ = {
+		2D49AA4E1FF7D18000EB08A8 /* CWVendorsUI.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CWVendorsUI.framework;
-			remoteRef = 2D22DC201FF4BF7200A0F54C /* PBXContainerItemProxy */;
+			remoteRef = 2D49AA4D1FF7D18000EB08A8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2D22DC231FF4BF7200A0F54C /* CWVendorsUITests.xctest */ = {
+		2D49AA501FF7D18000EB08A8 /* CWVendorsUITests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = CWVendorsUITests.xctest;
-			remoteRef = 2D22DC221FF4BF7200A0F54C /* PBXContainerItemProxy */;
+			remoteRef = 2D49AA4F1FF7D18000EB08A8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
